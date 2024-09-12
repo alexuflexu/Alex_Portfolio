@@ -207,11 +207,7 @@ button:focus,
   font-weight: bold;
 }
 
-p {
+.meet-app {
   text-align: left;
   padding: 10px;
-}
-
-li {
-  text-align: left;
 }
