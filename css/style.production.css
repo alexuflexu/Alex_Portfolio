@@ -198,3 +198,8 @@ button:focus,
   text-decoration: none;
   font-weight: bold;
 }
+
+.meet-app {
+  width: 95%;
+  height: auto;
+}
