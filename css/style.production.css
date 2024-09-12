@@ -211,3 +211,7 @@ button:focus,
   text-align: left;
   padding: 10px;
 }
+
+li {
+  text-align: left;
+}
