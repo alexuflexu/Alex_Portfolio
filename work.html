@@ -4,66 +4,46 @@
     <meta charset="UTF-8" />
     <title>Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="css/style.production.css" />
   </head>
-
   <body>
     <header class="page-header">
       <img src="img/logo.jpg" alt="logo" class="logo-image" />
       <nav class="main-navigation page-header__item">
         <ul role="menubar" class="navigation-list">
           <li role="presentation">
-            <a
-              href="index.html"
-              role="menuitem"
-              class="navigation-list__item navigation-list__item--active"
-              >Home</a
-            >
+            <a href="index.html" role="menuitem" class="navigation-list__item navigation-list__item--active">Home</a>
           </li>
           <li role="presentation">
-            <a href="about.html" role="menuitem" class="navigation-list__item"
-              >About</a
-            >
+            <a href="about.html" role="menuitem" class="navigation-list__item">About</a>
           </li>
           <li role="presentation">
-            <a href="contact.html" role="menuitem" class="navigation-list__item"
-              >Contact</a
-            >
+            <a href="contact.html" role="menuitem" class="navigation-list__item">Contact</a>
           </li>
           <li role="presentation">
-            <a href="work.html" role="menuitem" class="navigation-list__item"
-              >Work</a
-            >
+            <a href="work.html" role="menuitem" class="navigation-list__item">Work</a>
           </li>
         </ul>
       </nav>
     </header>
-
     <section>
-      <h1 id="work">Check some of my projects!</h1>
+      <h1 id="work">My projects:</h1>
       <div class="grid">
         <div class="grid__item">
           <h2>Pokedex</h2>
           <img src="./img/pokedex.jpg" alt="Pokedex" class="pokedex-image"/>
           <div class="pokedex">
-            <p style="text-align: left; padding-left: 20px;">"Pokedex App" is an online application that fetches data from the PokeAPI, displaying a list of 150 Pokémon as buttons. Users can click each button to learn more about the Pokémon.</p>
-            <p style="text-align: left; padding-left: 20px;">Technologies used:</p>
-              <ul>
-                <li>HTML5</li>
-                <li>CSS3 with Bootstrap</li>
-                <li>JavaScript</li>
-                <li>jQuery</li>
-                <li>PokeAPI</li>
-              </ul>
+            <p>"Pokedex App" is an online application that fetches data from the PokeAPI, displaying a list of 150 Pokémon as buttons. Users can click each button to learn more about the Pokémon.</p>
+            <p>Technologies used:</p>
+            <ul>
+              <li>HTML5</li>
+              <li>CSS3 with Bootstrap</li>
+              <li>JavaScript</li>
+              <li>jQuery</li>
+              <li>PokeAPI</li>
+            </ul>
           </div>
           <a href="https://github.com/alexuflexu/simple-js-app">See project on GitHub</a>
           <br>
@@ -75,17 +55,17 @@
           <div class="meet-app">
             <p>This is a RESTful web API for accessing a database of silent movies, genres, directors, and user information. It provides endpoints for managing user accounts and movie data, including features like user registration, movie browsing, and favorite movie management.</p>
             <p>Technologies used:</p>
-              <ul>
-                <li>Node.js</li>
-                <li>Express</li>
-                <li>MongoDB</li>
-                <li>Mongoose</li>
-                <li>JWT for authentication</li>
-              </ul>
+            <ul>
+              <li>Node.js</li>
+              <li>Express</li>
+              <li>MongoDB</li>
+              <li>Mongoose</li>
+              <li>JWT for authentication</li>
+            </ul>
           </div>
           <a href="https://github.com/alexuflexu/movie_api">See project on GitHub</a>
           <br>
-          <a href="https://alexuflexu.github.io/to-do-list-app/">See live version</a>
+          <a href="https://alexuflexu.github.io/movie_api/">See live version</a>
         </div>
         <div class="grid__item">
           <h2>myFlix React</h2>
@@ -93,13 +73,13 @@
           <div class="meet-app">
             <p>myFlix-client is a frontend application for browsing silent movies, managing profiles, and maintaining a favorites list, built with React and React Bootstrap. It offers user authentication, movie browsing, detailed movie information, profile management, and search functionality.</p>
             <p>Technologies used:</p>
-              <ul>
-                <li>React</li>
-                <li>React Bootstrap</li>
-                <li>Redux</li>
-                <li>JavaScript (ES6+)</li>
-                <li>SCSS</li>
-              </ul>
+            <ul>
+              <li>React</li>
+              <li>React Bootstrap</li>
+              <li>Redux</li>
+              <li>JavaScript (ES6+)</li>
+              <li>SCSS</li>
+            </ul>
           </div>
           <a href="https://github.com/alexuflexu/myFlix-client">See project on GitHub</a>
           <br>
@@ -128,14 +108,14 @@
           <div class="meet-app">
             <p>"Meet App" is a React application that helps users find events by city and select the number of events to display. It features city search, event filtering, and data visualizations with charts. The app also includes alerts for offline status and notifications for a better user experience.</p>
             <p>Technologies used:</p>
-             <ul>
+            <ul>
               <li>React</li>
               <li>Google Calendar API</li>
               <li>AWS Lambda</li>
               <li>Serverless</li>
               <li>TDD</li>
               <li>PWA features</li>
-             </ul>
+            </ul>
           </div>
           <a href="https://github.com/alexuflexu/meet-app">See project on GitHub</a>
           <br>
@@ -165,27 +145,18 @@
               <li>React Navigation</li>
             </ul>
           </div>
-          
           <a href="https://github.com/alexuflexu/chat-app">See project on GitHub</a>
         </div>
       </div>
     </section>
-
     <footer class="page-footer">
       <p>Find me on</p>
       <div class="social-media">
-        <a href="http://github.com" target="_blank"
-          ><img src="./img/github.png" alt="Github"
-        /></a>
-        <a href="http://twitter.com" target="_blank"
-          ><img src="./img/twitter.png" alt="Twitter"
-        /></a>
-        <a href="http://linkedin.com" target="_blank"
-          ><img src="./img/linkedin.png" alt="LinkedIn"
-        /></a>
+        <a href="http://github.com" target="_blank"><img src="./img/github.png" alt="Github"/></a>
+        <a href="http://twitter.com" target="_blank"><img src="./img/twitter.png" alt="Twitter"/></a>
+        <a href="http://linkedin.com" target="_blank"><img src="./img/linkedin.png" alt="LinkedIn"/></a>
       </div>
     </footer>
-
     <script src="js/tota11y.min.js"></script>
   </body>
 </html>
