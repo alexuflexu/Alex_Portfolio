@@ -215,3 +215,21 @@ button:focus,
 li {
   text-align: left;
 }
+
+.custom-image {
+  width: 100%;
+  height: 120px;
+}
+
+.angular-image {
+  max-width: 350px;
+}
+
+.react-image {
+  max-width: 350px;
+}
+
+.API-image {
+  max-width: 350px;
+}
+
