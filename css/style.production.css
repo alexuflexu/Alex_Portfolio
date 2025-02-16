@@ -166,13 +166,8 @@ li {
   text-align: left;
 }
 
-.custom-image,
-.angular-image,
-.react-image,
-.API-image,
-.pokedex-image,
-.meet-app-image,
-.to-do-app-image {
+.project-image,
+.chat-app-image {
   width: 320px;
   height: auto;
   border-radius: 4px;
@@ -180,14 +175,15 @@ li {
   transition: transform 0.3s ease;
 }
 
-.custom-image:hover,
-.angular-image:hover,
-.react-image:hover,
-.API-image:hover,
-.pokedex-image:hover,
-.meet-app-image:hover,
-.to-do-app-image:hover {
+.project-image:hover {
   transform: scale(2);
+  transform-origin: center;
+  position: relative;
+  z-index: 10;
+}
+
+.chat-app-image:hover {
+  transform: scale(1.5);
   transform-origin: center;
   position: relative;
   z-index: 10;
@@ -289,4 +285,11 @@ textarea {
 
 .button[type="submit"] {
   width: 100%;
+}
+
+.case-study img {
+  width: 70%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
